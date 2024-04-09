@@ -5,7 +5,7 @@ Desafio de recriar landpage de um portifolio profissional e a parte responsiva.
 - Alura
 - ONE - Oracle  Next Education
 
-deploy: https://challengeonedecodificador5.vercel.app/
+deploy: https://challenge-portifolio.vercel.app/
 
 ## 🛠 Habilidades
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
