@@ -1,0 +1,290 @@
+
+:root{
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #000 ;
+    color: white;
+    font-family: 'Raleway';
+    margin: 30px;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+.menu {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px; 
+}
+
+.title__profile{
+    width: 20%;
+    border-radius: 50%;
+}
+
+span {
+    color: blue;
+    font-size: 120%;
+}
+.menu__title {
+    margin-left: 30px;
+}
+
+.menu__list {
+    list-style-type: none; 
+    padding: 0; 
+    margin-top: 30px;
+}
+
+
+.menu__list__item {
+    display: inline; 
+    margin-right: 20px; 
+    margin-left: 55px;
+}
+
+.menu__list__item:hover {
+    border-bottom: 0.3em solid white;
+    border-radius: 5px;
+    
+}
+
+.menu__list__item:last-child {
+    margin-right: 0; 
+}
+
+.title__div {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.title__subsection {
+    font-weight:  bold;
+    font-size: 110%;
+    
+}
+
+.title__profile {
+    order: 2; 
+}
+
+.title__container {
+    order: 1; 
+    flex-grow: 1; 
+    margin-right: 20px; 
+}
+
+.title__bio {
+    margin-top: 80px;
+}
+
+.title__network {
+    display: flex;
+}
+
+.title__network__item{
+    padding-right: 150px;  
+}
+
+
+a {
+    color: white;
+}
+
+a:hover {
+    border-bottom: 0.3em solid white;
+    border-radius: 5px;
+}
+
+.skills__title, .hobbies__title  {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.skills__line  {
+    display: flex;   
+    text-align: center;
+}
+
+.skills__img img {
+   width: 20%; 
+}
+
+.hobbies__line {
+    display: flex; 
+    text-align: center;
+}
+
+.hobbies__img img {
+    width: 20%;
+}
+
+#formacao {
+    text-align: center;
+}
+
+.academic {
+    text-align: center;
+}
+
+.academic__courses {
+    display: flex;
+    text-align: center;
+    margin-left: 180px;
+}
+
+.academic__courses__box {
+    margin-right: 20px;
+    margin: 0 20px;
+}
+
+.academic__courses__item__img img{
+    border-radius: 5px;
+}
+
+.experiencie__box {
+    display: flex; 
+}
+
+#ex2 {
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+
+.experience__info {
+    margin-left: 100px;
+}
+
+#xp {
+    text-align: center;
+}
+
+
+.experience__img {
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.experiencia__botao--repo, .experiencia__botao--demo {
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    width: 110%;
+    margin-top: 20px;
+    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.formcontato__contacto {
+    display: flex;
+}
+
+.formcontato__img {
+    width: 60%;
+    border-radius:10px;
+}
+
+.formcontato__input{
+    width: 25.7%;
+    border-radius: 5px;
+}
+.formcontato__textarea {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.formcontato__botao{
+    background-color:  blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer__rodape {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+   .menu__list__item {
+     font-size: 70%;
+     display: block;
+   }
+
+    .title__div {
+        flex-direction: column; 
+        text-align: center; 
+        margin-top: -10%;
+    }
+
+    .title__profile {
+        width: 0%;
+        text-align: center; 
+    }
+
+    .title__container {
+        margin: 20px 0; 
+    }
+
+    .title__network {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .title__network__item {
+        padding: 10px 0; 
+    }
+
+    .academic__courses__box {
+        flex-basis: 100%; 
+        margin-right: 70px;
+        margin-left: -160px;  
+    }
+
+    .academic__courses__item__title, .academic__courses__item__subtitle {
+        display: none;
+    }
+
+    
+
+    .academic__courses__item__img img{
+        width: 50%;
+    }
+
+    .experience__box {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .experience__img {
+        display: 15%;
+    }
+
+    .experience__title {
+        display: none;
+    }
+
+    .experiencia__botao--repo, .experiencia__botao--demo {
+        display: none;
+    }
+}
