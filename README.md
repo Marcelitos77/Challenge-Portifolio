@@ -18,4 +18,4 @@ deploy: https://challengeonedecodificador5.vercel.app/](https://challenge-portif
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Marcelitos77/Challenge-Portifolio/blob/main/profifolio.png)
+![App Screenshot](https://github.com/Marcelitos77/Challenge-Portifolio/blob/main/git.png)
